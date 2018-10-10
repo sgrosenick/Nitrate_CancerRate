@@ -1,0 +1,106 @@
+html, body, #map {
+    height: 100%;
+    margin: 0;
+} 
+
+#map {
+    -webkit-mask: linear-gradient(90deg, transparent 2%, white 15%);
+}
+
+#sidepannel {
+    float: left;
+    height: 100vh;
+    width: 240px;
+    text-align: center;
+}
+
+#title {
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+}
+
+#legend2 {
+    height: 200px;
+    width: 200px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;;
+    padding: 10px;
+}
+
+.nitrate_leglabel {
+    font-size: 12px;
+}
+
+.canrate_leglabel {
+    font-size: 12px;
+}
+
+#nitrateInterpolate {
+    margin: 18px;
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+}
+
+#cancerInterpolate {
+    margin-bottom: 18px;
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+}
+
+.slidecontainer {
+    width: 75%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+#kVal {
+    margin: 20px;
+    top: 30%;
+}
+
+#removeLayers {
+    font-size: 12px;
+    font-family: "Playfair Display", serif;
+    top: 40%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.nitrate_leglabel {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+/*
+#runFeature {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    position: relative;   
+}*/
