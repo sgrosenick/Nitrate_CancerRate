@@ -16,17 +16,26 @@ html, body, #map {
 
 #title {
     font-family: "Playfair Display", serif;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#about {
+    font-family: "Playfair Display", serif;
+    font-size: 11.5px;
+    padding-top: 10px;
 }
 
 #legend2 {
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 225px;
     font-family: "Roboto", sans-serif;
     position: absolute;
     bottom: 0;
     z-index: 10;;
     padding: 10px;
+    margin: 10px;
+    display: block;align-content: center
 }
 
 .nitrate_leglabel {
@@ -37,16 +46,41 @@ html, body, #map {
     font-size: 12px;
 }
 
+.regression_leglabel {
+    font-size: 12px;
+}
+
+.regressionSymbol, .cancerRateSymbol, .nitrateSymbol {
+    opacity: 0.4;
+}
+
 #nitrateInterpolate {
-    margin: 18px;
+    margin-bottom: 14px;
     font-family: "Playfair Display", serif;
     font-size: 12px;
 }
 
 #cancerInterpolate {
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     font-family: "Playfair Display", serif;
     font-size: 12px;
+}
+
+.btn.btn-outline-primary:disabled {
+    color: darkgray;
+    border-color: darkgray;
+}
+
+#runFeature {
+    font-family: "Playfair Display", serif;
+    font-size: 12px;
+}
+
+#reset {
+    display: inline-block;
+    margin: 16px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 11px;
 }
 
 .slidecontainer {
@@ -80,27 +114,43 @@ html, body, #map {
     cursor: pointer;
 }
 
+#qVal_instruct {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#nitrate_instruct {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.legendTitle {
+    font-family: "Roboto", serif;
+    font-size: 12px;
+}
+
+#cancerRate_instruct {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#regression_instruct {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 #kVal {
     margin: 20px;
     top: 30%;
-}
-
-#removeLayers {
-    font-size: 12px;
-    font-family: "Playfair Display", serif;
-    top: 40%;
-    position: relative;
-    border-radius: 8px;
 }
 
 .nitrate_leglabel {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
-
-/*
-#runFeature {
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    position: relative;   
-}*/
